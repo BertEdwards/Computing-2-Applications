@@ -17,7 +17,7 @@ const Exam = Object.create(null);
 Exam.every_third = function (array) {
     return array.filter((ignore, k) => k % 3 === 0);
 };
-
+debugger;
 
 // Strings
 

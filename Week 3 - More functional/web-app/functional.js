@@ -3,6 +3,9 @@
 //     return x + 3;
 // };
 
+
+const { Runnable } = require("mocha");
+
 const curry = function (f) {
     return function (first) {
         return function (second) {
@@ -43,6 +46,3 @@ const twice = function (f) {
     };
 };
 
-
-
-debugger;
